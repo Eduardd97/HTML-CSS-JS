@@ -1,0 +1,171 @@
+@media (max-width: 960px) {
+    .image_container {
+        width: 47%;
+    }
+    .image_works_name {
+        height: 50px;
+        bottom: 35px;
+    }
+    .teams {
+        display: none;
+    }
+    .our_teams_info {
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+    }
+    .our_teams_image {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        align-items: center;
+        width: 100%;
+        height: 300px;
+        background-color: white;
+    }
+    .our_teams_info img {
+        width: 50%;
+        border: thick double #32a1ce;
+    }
+    .our_teams_image h4 {
+        margin: 0;
+        padding-top: 5px;
+    }
+    .our_teams_image span {
+        padding-top: 5px;
+    }
+    .testimonials{
+        display: block;
+    }
+    .testimonials-box {
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 20px;
+    }
+    .info-testimonials {
+        padding: 10px;
+    }
+    .footer-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 850px) {
+    .info {
+        width: 95%;
+    }
+    .info-content {
+        display: block;
+    }
+}
+
+@media (max-width: 800px) {
+    .main-menu {
+        display: none;
+        padding-bottom: 20px;
+    }
+    .burger {
+        display: flex;
+        justify-content: end;
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        right: 0;
+        cursor: pointer;
+    }
+    .burger:hover .main-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        height: 300px;
+        background-color: white;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+    .menu {
+        padding-bottom: 15px;
+    }
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .contact-user {
+        width: 100%;
+    }
+    .contact-user-button {
+        width: 50%;
+    }
+    .button_sending {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 700px) {
+    .image_container {
+        width: 47%;
+    }
+}
+
+@media (max-width: 550px) {
+    .image_works{   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    .image_container {
+        width: 85%;
+    }
+    .image_works_name {
+        height: 50px;
+        bottom: 40px;
+    }
+    .our_teams_info img {
+        width: 75%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 450px) {
+    .image_works_name {
+        height: 40px;
+        bottom: 25px;
+    }
+    .image_works button {
+        width: 45%;
+        height: 50px;
+    }
+    .our_teams_info img {
+        width: 87%;
+    }
+    .info-testimonials {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .info-testimonials img {
+        width: 70%;
+        padding: 0;
+        padding-bottom: 10px;
+    }
+    .footer-menu a {
+        text-transform: capitalize;
+    }
+    .menu {
+        padding: 4px;
+    }
+}

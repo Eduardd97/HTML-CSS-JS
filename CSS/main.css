@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(220, 217, 217);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* bonner */
+
+.bonner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-image: url(../image/komnata_mebel_interer_82953_1280x800.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    text-align: center;
+}
+.title {
+    font-size: 40px;
+    text-shadow: 0px 1px 3px black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.subtitle {
+    padding-bottom: 50px;
+    font-size: 35px;
+    color: white;
+    text-shadow: 0px 1px 3px black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* info */
+
+.info {
+    width: 80%;
+}
+.info-vezine h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+.info-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.info-text h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+.info-image img {
+    width: 100%;
+}
+
+/* work */
+
+.work h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.image_works{   
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+.image_container {
+    width: 30%;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 5%;
+}
+.image_container img {
+    width: 97%;
+    border: 1mm ridge gray ;
+}
+.image_works_name {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    bottom: 30px;
+    width: 99%;
+    height: 40px;
+    background-color: rgba(253, 223, 183, 0.853);
+    opacity: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.image_container:hover .image_works_name{
+    opacity: 1;
+    transition: 2s;;
+}
+.image_works button {
+    width: 35%;
+    height: 40px;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* teams */
+
+.our_teams h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.teams{   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+}
+.teams_image {
+    width: 20%;
+}
+.teams_image img {  
+    width: 100%;
+    padding-bottom: 5%;
+}
+.teams_name {
+    font-weight: bold;
+}
+.our_teams_info {
+    display: none;
+}
+
+/* testimonials */ 
+
+.user-reviews h2 {
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.testimonials {
+    display: flex;
+    gap: 5%;
+}
+.testimonials-box {
+    background-color: white;
+    width: 50%;
+    padding: 10px;
+}
+.info-testimonials {
+    display: flex;
+}
+.info-testimonials img {
+    width: 50%;
+    height: 100%;
+    padding-right: 20px;
+}
+.info-testimonials p {
+    margin: 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.user-name {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+
+/* contacts */
+
+.contacts {
+    display: flex;
+    gap: 5%;
+}
+.contact-user {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.contact-us h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+.contact-user h5 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.contact-user-input {
+    height: 30px;
+    margin-bottom: 15px;
+}
+.contact-user-input-message {
+    height: 120px;
+    padding: 0;
+}
+.contact-user-button {
+    margin-top: 10px;
+    padding: 0;
+    width: 100%;
+    height: 25px;
+    background-color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}

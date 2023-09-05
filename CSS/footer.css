@@ -1,0 +1,33 @@
+footer{
+    background-color: blue;
+}
+.footer-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+.text-link {
+    color: white;
+}
+.text-link a {
+    padding-left: 5px;
+    color: rgb(221, 215, 247);
+}
+.footer-menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-menu a {
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+}
+.menu {
+    padding: 5px;
+    cursor: pointer;
+
+}
+.footer-menu a:hover {
+    color: aqua;
+}
